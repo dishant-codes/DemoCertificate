@@ -183,6 +183,7 @@
                 if (res.status === 201) {
                     // SUCCESS
                     console.log("sent");
+                    location.reload();
                     doc.save('sample-document.pdf');
                 } else {
                     // ERROR
